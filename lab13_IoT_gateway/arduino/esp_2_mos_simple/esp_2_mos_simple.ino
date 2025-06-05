@@ -4,9 +4,9 @@
 
 #define DHTPIN 4        // GPIO pin connected to DHT22
 #define DHTTYPE DHT11    // DHT 22 (AM2302)
-#define WIFI_SSID "One Piece"
-#define WIFI_PASSWORD "zindabad@+1+2+3"
-#define MQTT_SERVER "192.168.1.12"  // Replace with your Windows PC's IP address on LAN
+#define WIFI_SSID "iPhone 13 Pro"
+#define WIFI_PASSWORD "11223344"
+#define MQTT_SERVER "172.20.10.2"  // Replace with your Windows PC's IP address on LAN
 #define MQTT_PORT 1883
 
 DHT dht(DHTPIN, DHTTYPE);
